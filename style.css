@@ -1,0 +1,126 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+    background-color: #F8EEDC;
+}
+
+img, svg {
+    vertical-align: middle;
+    height: 70px;
+    width: 190px;
+}
+
+.me-2 {
+    margin-right: .5rem !important;
+    border-radius: 20px;
+}
+.bg-light {
+    background-color: #664C28 !important;
+}
+
+.d-block {
+    display: block !important;
+    height: 610px;
+}
+.btn-light {
+    color: #000;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 20px;
+}
+.navbar-brand {
+    font-size: 27px !important;
+    color: white!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .55);
+    color: white;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:rgb(235, 12, 12);
+    background-color:white;
+}
+/*Sliders*/
+.carousel{
+    position: relative;
+    margin-top: 67px;
+}
+#about{
+    text-align: justify;
+}
+#about h3{
+    text-align: center;
+    margin-top: 18px;
+    padding-top: 4em;
+}
+#about p{
+    padding: 10px 10px;
+    font-size: 17px;
+}
+/*Menu*/
+#menu h3{
+    text-align: center;
+    font-weight: 700;
+}
+
+/*Service*/
+
+#services h3{
+    text-align: center;
+    font-weight: 700;
+}
+#services p{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 17px;
+}
+.btn-primary{
+    width: 100%;
+    background-color:#664C28;
+}
+.card-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.card{
+    margin-top: 8px;
+    margin-left: 2px;
+}
+/*Gallery*/
+.card-img-top{
+    width: 302.4px;
+    height: 220px;
+}
+#gallery h3{
+    text-align: center;
+    font-weight: 700;
+}
+
+#contact h3{
+    text-align: center;
+    font-weight: 700;
+}
+
+/*Footer*/
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 160px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.social-media{
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
